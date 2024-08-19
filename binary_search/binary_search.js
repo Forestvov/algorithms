@@ -32,7 +32,7 @@ console.log(binarySearch(fillArray(128), 128));
 console.log(binarySearch(fillArray(256), 256));
 
 function fillArray(n) {
-    arr = [];
+    const arr = [];
     for (i = 1; i <= n; ++i) {
         arr.push(i);
     }
